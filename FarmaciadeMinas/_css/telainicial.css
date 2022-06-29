@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin:0;	
+	box-sizing: border-box;
+}
+body{
+    font-family: arial,sans-serif;
+	background: url("../_imagens/money-site-x-pbn-fundo.jpg");
+	color:rgba(0, 0, 0, 1.0);
+}
+.conteiner{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: #f3f3f3;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .3);
+	border-radius: 20px;
+}
+.form-img{
+    width: 80%;
+   
+    
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 3rem;
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #06cfb7;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group label{
+    font-size: 16pt;
+    font-weight: 100;
+
+}
+.input-group input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.botton button{
+    margin-top: 20%;
+    text-decoration: none;
+    background-color: #06cfb7;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.botton button:hover{
+    margin-top: 20%;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.botton a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+.botton a:hover{
+    color:#06cfb7;
+    text-decoration: none;
+}

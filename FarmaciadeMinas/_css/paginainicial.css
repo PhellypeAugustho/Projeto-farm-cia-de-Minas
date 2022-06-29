@@ -1,0 +1,178 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin:0;	
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial,sans-serif;
+	background: url("../_imagens/money-site-x-pbn-fundo.jpg") no-repeat;
+	color:rgba(0, 0, 0, 1.0);
+}
+
+header#cabecalho{
+	background-color:#06cfb7;
+	display: flex;
+	justify-content: center;
+}
+hgroup{
+	position: relative;
+	right: 200px;
+}
+img#logo01{
+	position: relative;
+	right: 200px;
+}
+header h1{
+	color: white;
+}
+header h2{
+	color: white;
+}
+nav#menu ul li{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	margin: 10px;
+}
+nav#menu a{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	padding: 5px;
+	background-color: white;
+	color: #06cfb7;
+	text-decoration: underline;
+	border-radius: 10px;
+}
+.conteiner{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: #f3f3f3;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .3);
+	border-radius: 40px;
+
+}
+.col {
+    width: 80%
+}
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #06cfb7;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+.input-box p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box label,
+.gender-title h6 {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+.group-button{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.continue-button button{
+	font-size: 20px;
+	border: none;
+	color: white;
+	background-color: #06cfb7;
+	padding: 10px;
+	border-radius: 10px;
+}
+.continue-button button:hover{
+	font-size: 20px;
+	border: none;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+}
+.continue-button a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+.continue-button a:hover{
+	padding: 10px;
+	text-decoration: none;
+	color: #06cfb7;
+}
+

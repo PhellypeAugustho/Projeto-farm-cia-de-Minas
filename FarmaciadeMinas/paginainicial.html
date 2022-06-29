@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Policlinica de Minas</title>
+    <link rel="stylesheet" type="text/css" href="_css/paginainicial.css">
+</head>
+<body>
+        <header id="cabecalho">
+            <img id="logo01" src="_imagens/logo-pref-estrela.png">
+            <hgroup>
+        <h1>Farmácia de Minas</h1>
+        <h2>Saude em movimento</h2>
+             </hgroup>
+    <nav id="menu">
+        <ul>
+            <li><a href="">Pacientes</a></li>
+            <li><a href="">Cadastrar</a></li>
+            <li><a href="">Procedimentos</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">consultas</a></li>   
+        </ul>
+
+    </nav>
+        </header>
+        <div class="conteiner">
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="tNome">Nome Completo</label>
+                            <input id="tNome" type="text" name="tNome" placeholder="Digite o Nome" required/>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="tRes">Responsavel</label>
+                            <input id="tRes" type="text" name="tRes" placeholder="Digite o nome do Responsavel" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <p>Sexo</p>
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="tRec">Tipo de Receita</label>
+                            <select name="tRec" id="tRec">
+                                <option>A</option>
+                                <option>B</option>
+                                <option>Normal</option>
+                            </select>
+                        </div>
+                    </div>
+                        
+                    <div class="col">
+                        <div class="input-box">
+                            <label for="tCel">Celular</label>
+                            <input id="tCel" type="number" name="tCel" placeholder="(xx) xxxx-xxxx" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="tData">Data</label>
+                            <input id="tData" type="date" name="tData" placeholder="Digite sua senha" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="tCPF">CPF</label>
+                            <input id="tCPF" type="number" name="tCPF" placeholder="Digite o CPF" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="tRg">RG</label>
+                            <input id="tRg" type="number" name="tRg" placeholder="Digite o RG" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="tObs">Observação</label>
+                            <textarea id="tObs" name="tObs" rows="5" placeholder="Digite um texto" required></textarea>
+                        </div>
+    
+                    </div>
+                </div>
+       <div class="group-button">
+                    <div class="continue-button">
+                        <button><a href="#">Voltar</a> </button>
+                    </div>
+                    <div class="continue-button">
+                        <button><a href="#">Salvar</a> </button>
+                    </div>
+                    </form>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
